@@ -105,11 +105,12 @@ print(yu)
 
 is 運算子
 判斷是否為相同實例
+不同源
 x = [1,2,3]   
 y = [1,2,3]   
 print(x == y) 
 print(x is y) 
-
+同源
 z = [1,2,3]   
 a = z   
 print(a == z) 
